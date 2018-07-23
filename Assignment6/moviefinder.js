@@ -19,7 +19,7 @@ $(document).ready(function() {
       type: 'GET',
       dataType: 'json',
       async: true,
-      url: 'http://www.omdbapi.com/?' + searchCriteria + '=' + search + '&apikey=51f2f007',
+      url: 'https://www.omdbapi.com/?' + searchCriteria + '=' + search + '&apikey=51f2f007',
       success: (response) => {
         $("p").remove()
 
