@@ -3,9 +3,9 @@ $(document).ready(function() {
   $(".searchMovie").keypress(function() {
     let search = event.target.value;
     let searchCriteria = ''
-    let string = /^[a-zA-Z]+$/;
-    let number = /^[0-9]+$/;
-    let alphanumeric = /^[0-9a-zA-Z]+$/;
+    let string = /^[a-zA-Z ]+$/;
+    let number = /^[0-9 ]+$/;
+    let alphanumeric = /^[0-9a-zA-Z ]+$/;
 
     if (search.match(string)) {
       searchCriteria = 't'
