@@ -86,7 +86,7 @@ $(document).ready(function() {
       },
 
       error: (err) => {
-        alert(err.responseJSON.error.message)
+        alert("there is some problem")
       }
 
     });
